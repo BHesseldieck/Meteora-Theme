@@ -1,0 +1,56 @@
+{
+	"name": "meteora-theme",
+	"displayName": "Meteora",
+	"description": "Inspired by the Meteor.js framework",
+	"version": "1.0.0",
+	"publisher": "bhesseldieck",
+	"bugs": {
+		"url": "https://github.com/BHesseldieck/Meteora-Theme/issues"
+	},
+	"homepage": "https://github.com/BHesseldieck/Meteora-Theme/",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/BHesseldieck/Meteora-Theme"
+	},
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"scripts": {
+		"build": "node build.js",
+		"docs": "docsify serve docs"
+	},
+	"pre-commit": [
+		"build"
+	],
+	"prettier": {
+		"singleQuote": true,
+		"semi": false
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Meteora",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Meteora.json"
+			}
+		]
+	},
+	"icon": "icon.png",
+	"keywords": [
+		"meteora",
+		"meteor",
+		"theme"
+	],
+	"devDependencies": {
+		"lodash": "^4.17.11",
+		"docsify-cli": "^4.3.0",
+		"pre-commit": "^1.2.2"
+	},
+	"galleryBanner": {
+		"color": "#2d323b",
+		"theme": "dark"
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "classic": {
+    "purple": "#c678dd",
+    "error": "#f44747",
+    "coral": "#e06c75",
+    "whiskey": "#d19a66",
+    "chalky": "#e5c07b",
+    "lightDark": "#7f848e",
+    "dark": "#5c6370",
+    "malibu": "#61afef",
+    "green": "#98c379",
+    "fountainBlue": "#56b6c2",
+    "invalid": "#ffffff",
+    "lightWhite": "#abb2bf"
+  }
+}
