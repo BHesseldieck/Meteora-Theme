@@ -4,6 +4,9 @@
 
 Meteor.js inspired theme [themes]() for VS Code!
 
+Created for JavaScript & Elixir, also works well with Ruby.
+Other languages not extensively tested -> PRs welcome.
+
 [GitHub repository](https://github.com/BHesseldieck/Meteora-Theme)
 
 
@@ -39,7 +42,7 @@ or use the setting `editor.tokenColorCustomizations`
     "[Meteora]": {
       "textMateRules": [
         {
-          "scope":["source.python"],
+          "scope":["source.elixir"],
           "settings": {
             "foreground": "#e06c75"
           }
