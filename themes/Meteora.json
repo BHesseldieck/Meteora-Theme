@@ -305,6 +305,13 @@
       }
     },
     {
+      "name": "Elixir Modules",
+      "scope": "variable.other.constant.elixir", // not in original
+      "settings": {
+        "foreground": "#FF4E33"
+      }
+    },
+    {
       "name": "Keyword",
       "scope": "keyword, constant.language.boolean, variable.language.this, variable.language.super, storage.type.class, storage.modifier",
       "settings": {
