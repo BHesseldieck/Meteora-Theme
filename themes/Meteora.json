@@ -648,7 +648,7 @@
       "scope": "entity.other.attribute-name.class.css, meta.attribute.class.html",
       "settings": {
         // "foreground": "#68C244" // original
-        "foreground": "#FF007F"
+        "foreground": "#dc4f79"
       }
     },
     {
