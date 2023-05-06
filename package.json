@@ -46,7 +46,7 @@
 	],
 	"devDependencies": {
 		"lodash": "^4.17.11",
-		"docsify-cli": "^4.3.0",
+		"docsify-cli": "^4.4.4",
 		"pre-commit": "^1.2.2"
 	},
 	"galleryBanner": {
